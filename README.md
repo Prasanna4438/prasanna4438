@@ -14,3 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+![Uploading data types.png…]()
+![B com cert](https://github.com/Prasanna4438/prasanna4438/assets/147367491/97a8fd23-c5c3-4687-a601-8332bf4243e9)
+
