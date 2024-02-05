@@ -18,7 +18,7 @@ Prasanna kumar</a></h1>
 
 - 📝 I regularly write articles on https://medium.com/@arajulaprasannakumar1998.
 
-- 💬 Ask me about **Data Analyst & Data science**
+- 💬 Ask me about **Data Analyst**
 
 - 📫 How to reach me **arajulaprasannakumar1998@gmail.com**
 
