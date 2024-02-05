@@ -14,7 +14,7 @@ Prasanna kumar</a></h1>
 
 - 🤝 I’m available for freelancing.
 
-- 🌱 I’m currently learning sql && Business Tools <a href="https://github.com/100rabhcsmc/100DaysOfSwift" target="blank">100DaysOfSwift</a>
+- 🌱 I’m currently learning sql
 
 - 📝 I regularly write articles on [https://dev.to/100rabhcsmc](https://dev.to/100rabhcsmc)
 
