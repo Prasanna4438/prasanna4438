@@ -16,7 +16,7 @@ Prasanna kumar</a></h1>
 
 - 🌱 I’m currently learning sql
 
-- 📝 I regularly write articles on [https://dev.to/100rabhcsmc](https://dev.to/100rabhcsmc)
+- 📝 I regularly write articles on https://medium.com/@arajulaprasannakumar1998.
 
 - 💬 Ask me about **Data Analyst & Data science**
 
