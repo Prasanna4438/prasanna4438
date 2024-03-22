@@ -1,65 +1,25 @@
-<h1 align="center">Hi 👋, I'm <a href="https://github.com/Prasanna4438" target="blank">
-Prasanna kumar</a></h1>
-<h3 align="center">A passionate Data Analyst from India</h3>
+# Customer Review Sentiment Analysis
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=100rabhcsmc&label=Profile%20views&color=0e75b6&style=flat" alt="100rabhcsmc" /> </p>
+## Objective
 
-<a target="_blank" align="center">
-  <img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif">
-</a>
+The objective of this project is to classify customer reviews as positive or negative and understand the pain points of customers who write negative reviews. By analyzing the sentiment of reviews, we aim to gain insights into product features that contribute to customer satisfaction or dissatisfaction.
 
-- 🔭 I’m currently mastering in Data Anlayst 
+## Dataset
 
-- 🌱 I’m currently Working on Web Scrapping (React-Native)
+We have utilized a dataset consisting of 8,518 reviews for the "YONEX MAVIS 350 Nylon Shuttle" product from Flipkart. The dataset includes features such as Reviewer Name, Rating, Review Title, Review Text, Place of Review, Date of Review, Up Votes, and Down Votes. This data was scraped by a team of Data Engineers from the Flipkart website.
 
-- 🤝 I’m available for freelancing.
+## Data Preprocessing
 
-- 🌱 I’m currently learning sql
+- Text Cleaning: Special characters, punctuation, and stopwords have been removed from the review text to improve analysis accuracy.
+- Text Normalization: Lemmatization or stemming techniques have been applied to reduce words to their base forms.
+- Numerical Feature Extraction: Techniques such as Bag-of-Words (BoW), Term Frequency-Inverse Document Frequency (TF-IDF), Word2Vec (W2V), and BERT models have been used for feature extraction.
 
-- 📝 I regularly write articles on https://medium.com/@arajulaprasannakumar1998.
+## Modeling Approach
 
-- 💬 Ask me about **Data Analyst**
+- Model Selection: Various machine learning and deep learning models have been trained and evaluated using the processed text data.
+- Evaluation Metric: The F1-Score has been chosen as the evaluation metric to assess the performance of the models in classifying sentiment.
 
-- 📫 How to reach me **arajulaprasannakumar1998@gmail.com**
-
-- 📄 Know about my experiences <a href="https://github.com/100rabhcsmc/Me.io/blob/master/01SaurabhChavanReactNativeResume.pdf" target="blank">Resume</a>
-<br/>
-<h3 align="center" > <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" height="30" style="margin-right: 10px;">Connect with me 🤝 </h3>
-
-<p align="center">
-
- <div align="center"  class="icons-social" style="margin-left: 10px;">
-        <a style="margin-left: 10px;"  target="_blank" href="https://www.linkedin.com/in/saurabhmchavan/">
-			<img src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png"></a>
-        <a style="margin-left: 10px;" target="_blank" href="https://github.com/100rabhcsmc">
-		<img src="https://img.icons8.com/doodle/40/000000/github--v1.png"></a>
-		<a style="margin-left: 10px;" target="_blank" href="https://stackoverflow.com/users/12053852/saurabh-chavan?tab=profile">
-				<img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png"></a>
-	   <a style="margin-left: 10px;" target="_blank" href="https://dev.to/100rabhcsmc">
-					<img src="https://img.icons8.com/external-sketchy-juicy-fish/0.6x/external-blog-online-services-sketchy-sketchy-juicy-fish.png"></a>
-        <a style="margin-left: 10px;" target="_blank" href="https://instagram.com/100rabhch">
-			<img src="https://img.icons8.com/doodle/40/000000/instagram-new--v2.png"></a>
-		<a style="margin-left: 10px;" target="_blank" href="https://twitter.com/100rabhcsmc">
-			<img src="https://img.icons8.com/doodle/1x/twitter-squared--v2.png" ></a>
-		<a style="margin-left: 10px;" target="_blank" href="https://www.youtube.com/channel/UC-ZdNkKNHC6KguDqNFKO2Nw?view_as=subscriber">
-				<img src="https://img.icons8.com/doodle/1x/youtube--v2.png" ></a>
-		<a style="margin-left: 5px;" target="_blank" href="https://github.com/100rabhcsmc/Me.io/blob/master/01SaurabhChavanReactNativeResume.pdf">
-					<img src="https://img.icons8.com/plasticine/0.5x/resume.png" ></a>
-      </div>
-
-</p>
-
-### Blogs posts
-
-<!-- BLOG-POST-LIST:START -->
-
-- [Download Instagram profile picture using python](https://dev.to/100rabhcsmc/instagram-profile-picture-download-using-python-n2j)
-- [Convert a image to sketch using python](https://dev.to/100rabhcsmc/convert-a-image-to-sketch-using-python-3ip1)
-- [Upload your project/files in GitHub using commands](https://dev.to/100rabhcsmc/upload-your-project-files-in-github-using-commands-1hn8)
-<!-- BLOG-POST-LIST:END -->
-
----
-
-Credit: [Saurabh Chavan](https://github.com/100rabhcsmc)
-
-Last Edited on: 08/08/2022
+## Model Deployment
+- Flask App Development: A Flask web application has been developed for user interaction. Users can input a review, and the app will generate the sentiment (positive or negative) of the review.
+- Model Integration: The trained sentiment classification model has been integrated into the Flask app for real-time inference.
+- Deployment: The Flask or Streamlit app has been deployed on an AWS EC2 instance, making it accessible over the internet for users to use and gain insights from customer reviews.
